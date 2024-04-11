@@ -22,7 +22,7 @@ We created a database on mongo db and connected it to our project to upload the 
 
 We created a pipeline to perform all the steps which includes : 
 
-#### Data Acquisionv : created a function to collect data from API convert it into json and then Data Frame
+#### Data Acquision : created a function to collect data from API convert it into json and then Data Frame
 #### Data Transformation : Transformed time and poition columns using datetime library and Nominatim API.
 #### Data Upload to mongo db : Create a database in mongodb console and connected it to our project.
 
