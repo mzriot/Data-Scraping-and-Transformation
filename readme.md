@@ -9,7 +9,7 @@ It have follwing attributes : number, contract_name, name, address, position, ba
 It is the information of different cycle stands with their location and infromation regarding bike availability and total number of bikes that stand holds.
 From all this data we can look at the pattern of bikes being used on a perticular time of day, we can look at the stands near the colleges and see how the movement of bikes are happening there and create insights out of it
  
-### Transforming the data and uploading it to Azure sql server:
+### Transforming the data:
 
 After observing the data, last_update is in timestamp - milisecond which we will convert to seconds and then use datetime library to convert it into human readable format.
 We also retrieved coordinates from position columm, extracted it into two different columns (latitude, longitude) and then created a reverse geo function to extract the location using Nominatim API : https://nominatim.org/release-docs/latest/api/Reverse/.
