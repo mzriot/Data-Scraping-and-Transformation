@@ -22,8 +22,11 @@ We created a database on mongo db and connected it to our project to upload the 
 
 We created a pipeline to perform all the steps which includes : 
 
-#### Data Acquision : created a function to collect data from API convert it into json and then Data Frame
-#### Data Transformation : Transformed time and poition columns using datetime library and Nominatim API.
-#### Data Upload to mongo db : Create a database in mongodb console and connected it to our project.
+#### Data Acquision : 
+created a function to collect data from API convert it into json and then Data Frame
+#### Data Transformation : 
+Transformed time and poition columns using datetime library and Nominatim API.
+#### Data Upload to mongo db : 
+Create a database in mongodb console and connected it to our project.
 
 we used while loop and defind a time of 10 hours to fetch the data with a sleep time of every 30 mintues. We fetched the data of every 30 minutes and got the data uploaded in our database.
