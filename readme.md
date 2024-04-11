@@ -20,5 +20,10 @@ We created a database on mongo db and connected it to our project to upload the 
 
 ### Creating Pipeline:
 
-We created a pipeline to perform all the steps which includes : Data Acquision, Data Transformation and Data Upload to mongo db.
+We created a pipeline to perform all the steps which includes : 
+
+#### Data Acquision. 
+#### Data Transformation. 
+#### Data Upload to mongo db.
+
 we used while loop and defind a time of 10 hours to fetch the data with a sleep time of every 30 mintues. We fetched the data of every 30 minutes and got the data uploaded in our database.
