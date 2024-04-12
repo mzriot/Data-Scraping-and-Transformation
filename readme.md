@@ -27,3 +27,11 @@ We created a pipeline to perform all the steps which includes :
 #### Data Upload to mongo db : Create a database in mongodb console and connected it to our project.
 
 we used while loop and defind a time of 10 hours to fetch the data with a sleep time of every 30 mintues. We fetched the data of every 30 minutes and got the data uploaded in our database.
+
+### Loading the data from mongodb server : 
+
+We load the saved data from mongo db server and performed Analysis.
+
+### Analysis:
+
+We checked out the availablility of cycles in different locations and the area near the college and found out that the cycles are mostly used during morning and evening time as per college timings.
