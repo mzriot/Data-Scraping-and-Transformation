@@ -34,4 +34,4 @@ We load the saved data from mongo db server and performed Analysis.
 
 ### Analysis:
 
-We checked out the availablility of cycles in different locations and the area near the college and found out that the cycles are mostly used during morning and evening time as per college timings.
+We checked out the availablility of cycles in different locations and the area near the college and found out that the cycles are mostly used during Afternoon and evening time as per college timings.
